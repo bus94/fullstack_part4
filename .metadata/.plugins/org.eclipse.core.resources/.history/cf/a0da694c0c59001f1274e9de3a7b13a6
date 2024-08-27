@@ -1,0 +1,15 @@
+package com.ss.rest.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RequestMapping("/cat")
+@org.springframework.web.bind.annotation.RestController
+public class RestController {
+	
+	@GetMapping("/show")
+	public ResponseEntity<> show() {
+		return null;
+	}
+}

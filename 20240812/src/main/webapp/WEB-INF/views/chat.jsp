@@ -1,0 +1,181 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f7f7f7;
+}
+
+.chat-container {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	height: 100vh;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.header {
+	background-color: #fddc3f;
+	color: black;
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.chat-area {
+	flex-grow: 1;
+	padding: 10px;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.message {
+	max-width: 70%;
+	padding: 8px 12px;
+	border-radius: 20px;
+	font-size: 14px;
+	word-wrap: break-word;
+}
+
+.message.user {
+	align-self: flex-end;
+	background-color: #DCF8C6;
+	color: black;
+}
+
+.message.other {
+	align-self: flex-start;
+	background-color: #ebebeb;
+	color: black;
+}
+
+.input-area {
+	display: flex;
+	padding: 10px;
+	border-top: 1px solid #ddd;
+	background-color: #fff;
+}
+
+.input-area input[type="text"] {
+	flex-grow: 1;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 20px;
+	font-size: 14px;
+	outline: none;
+}
+
+.input-area button {
+	margin-left: 10px;
+	padding: 10px 20px;
+	background-color: #fddc3f;
+	border: none;
+	border-radius: 20px;
+	font-size: 14px;
+	cursor: pointer;
+}
+</style>
+<script
+	src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+</head>
+<body>
+	<%-- <h1>WebSocket Test</h1>
+	<h4>${pageContext.request.serverName}</h4>
+	<h4>${pageContext.request.serverPort}</h4>
+	<h4>${pageContext.request.contextPath}</h4> --%>
+
+	<div class="chat-container">
+		<div class="header">카카오톡</div>
+
+		<!-- 채팅 메세지 보여주는 공간 -->
+		<div class="chat-area" id="chatArea"></div>
+
+		<!-- 채팅 입력 공간 -->
+		<div class="input-area">
+			<input type="text" id="chatInput" placeholder="메시지 입력">
+			<button id="sendButton">전송</button>
+		</div>
+	</div>
+
+	<script>
+		// 클라이언트에서 소켓 통신의 객체를 생성
+		let socket = new WebSocket(
+				"ws://${pageContext.request.serverName}:${pageContext.request.serverPort}${pageContext.request.contextPath}/myHandler");
+
+		socket.onopen = function() {
+			console.log("Connection Opened!");
+			// send() 메서드를 이용해서 괄호 안에 서버로 보낼 메세지를 입력한다.
+			socket.send("hello server!");
+		};
+
+		// 서버로부터 메시지가 도착했을 때
+		socket.onmessage = function(event) {
+			console.log("응답  server: " + event.data);
+			displayMessage(event.data, 'other');
+		};
+
+		// 웹 소켓 연결이 닫혔을 때 실행하는 함수
+		socket.onclose = function() {
+			console.log("Connection closed");
+		};
+
+		// 웹 소켓 연결시 에러가 발생했을 때 실행하는 함수
+		socket.onerror = function(error) {
+			console.log("Error: " + error);
+		};
+
+		// 요소값들을 가지고 오는 명령문
+		const sendButton = document.getElementById('sendButton');
+		const chatInput = document.getElementById('chatInput');
+		const chatArea = document.getElementById('chatArea');
+		
+		// 버튼을 클릭했을 때 실행 이벤트
+		sendButton.addEventListener('click', sendMessage);
+		
+		// 함수 정의하기
+		function sendMessage() {
+			// 1. 입력창에 있는 메세지 가져오기
+			const messageText = chatInput.value.trim();
+			
+			// 2. 비어있으면 실행 안하고 메세지가 있으면 서버로 전송하기
+			if(messageText !== '') {
+				// 요소값을 대화창에 추가하는 메서드
+				displayMessage(messageText, 'user');
+				// 서버 전송
+				socket.send(messageText);
+				// 입력창 비우기
+				chatInput.value='';
+			}
+		};
+		
+		// 대화창에 메세지 생성해서 출력하기
+		function displayMessage(msg, type) {
+			// 새로운 div 생성
+			const msgDiv = document.createElement('div');
+			// 클래스 이름 생성
+			msgDiv.className = "message " + type;
+			// 요소의 내용 저장
+			msgDiv.textContent = msg;
+			// 채팅창 chatArea 자식으로 추가하기
+			chatArea.appendChild(msgDiv);
+		};
+	</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ page session="false" %>
+<html>
+<head>
+	<title>Home</title>
+</head>
+<body>
+	<!-- 
+		폴링(polling)
+		- 
+		
+		서버 센트 이벤트 Server Sent Event
+		- 단방향
+		- 서버 -> 클라이언트
+		- 한 번 연결하면 서버가 클라이언트에 지속적으로 데이터를 보냄
+		
+		웹소켓(WebSocket)은 양방향 통신을 지원하는 네트워크
+	 -->
+	
+</body>
+</html>

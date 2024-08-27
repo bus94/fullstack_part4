@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 아임포트 결제 시 라이브러리 받기 -->
+	<h1>아임포트 결제</h1>
+	<button onclick="requestPay()">결제하기</button>
+</body>
+</html>

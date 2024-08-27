@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 1. 문서 타입을 저장 -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="memberMapper">
+
+	<!-- resultMap 태그는 DB결과와 java객체를 매핑하기 위한 xml 태그 
+		type: 결과를 매핑할 java 클래스 전체 경로를 지정
+		id : resultMap의 고유한 식별자
+		
+		<result /> 
+		- resultMap 내부에서만 사용되는 태그 (실질적인 매칭해주는 역할) : 실제 객체의 속성과 DB 컬럼 매핑 해준다.
+		
+		property 속성: java 클래스 멤버명
+		column 속성: DB 컬럼명
+		typeHandler 속성: 데이터 타입을 변환할 때 사용되는 TypeHandler 클래스를 지정(선택사항)
+	-->
+	<resultMap type="com.ss.spring.member.dto.Member"
+		id="memberMap">
+		<result property="id" column="id" />
+		<result property="password" column="password" />
+		<result property="name" column="name" />
+		<result property="age" column="age" />
+		<result property="gender" column="gender" />
+		<result property="phone" column="phone" />
+		<result property="address" column="address" />
+		<result property="email" column="email" />
+		
+		<!-- 취미는 배열로 들어온다. -->
+		<result property="hobby" column="hobby" typeHandler="com.ss.spring.member.common.MemberTypeHandler"/>
+		
+		<result property="enrollDate" column="enrollDate"/>
+	</resultMap>
+
+	<insert id="insertMember" parameterType="dto">
+		INSERT INTO member (id,
+		password, name, age, gender, phone, address, email, hobby, enrolldate)
+		VALUES
+		(#{id}, #{password}, #{name}, #{age}, #{gender}, #{phone},
+		#{address},
+		#{email}, #{hobby, typeHandler = com.ss.spring.member.common.MemberTypeHandler}, DEFAULT)
+	</insert>
+	
+	<select id="selectById" parameterType="String"
+		resultMap="memberMap">
+		SELECT * FROM member WHERE id = #{id}
+	</select>
+
+	<select id="selectMemberById" parameterType="java.util.HashMap"
+		resultMap="memberMap">
+		SELECT * FROM member WHERE id = #{id}
+		<if test="password != null">
+			and password = #{password}
+		</if>
+	</select>
+	
+	<!--전체 조회하는 sql 문도 작성해서 resultMap="memberMap" -->
+	<select id="selectMemberAll" resultMap="memberMap">
+		select * from member
+	</select>
+
+	<delete id="deleteMemberById" parameterType="String">
+		DELETE FROM MEMBER
+		WHERE id = #{id}
+	</delete>
+</mapper>
+
+<!-- INSERT INTO member (id, password, name, age, gender, phone, address, 
+	email, hobby, enrolldate) VALUES (#{id}, #{password}, #{name}, #{age}, #{gender}, 
+	#{phone}, #{address}, #{email}, #{hobby}, DEFAULT) -->

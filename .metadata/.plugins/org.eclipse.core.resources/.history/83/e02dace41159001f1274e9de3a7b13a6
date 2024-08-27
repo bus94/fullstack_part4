@@ -1,0 +1,5 @@
+package com.ss.rest.dto;
+
+public class Cat {
+
+}

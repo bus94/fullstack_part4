@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<!-- <bean id="mailSender"
+		class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="smtp.naver.com" />
+		<property name="port" value="465" />
+		<property name="username" value="lbs927" />
+		<property name="password" value="" />
+		<property name="javaMailProperties">
+			props 여러 개의 속성을 그룹화하는 태그
+			<props>
+				SMTP 서버에서 사용자 인증을 요구하는 여부
+				<prop key="mail.smtp.auth">true</prop>
+
+				TLS(Transport Layer Security) : 인터넷에서 데이터를 전송할 떄 안전하게 전송하기 위해 사용되는 보안 프로토콜 
+					TLS를 사용하여 SMTP 통신을 암호화할지 여부를 설정
+				<prop key="mail.smtp.starttls.enable">true</prop>
+				<prop key="mail.smtps.checkserveridentity">true</prop>
+				<prop key="mail.smtps.ssl.trust">*</prop>
+				메일 정보를 콘솔 창에 출력
+				<prop key="mail.debug">true</prop>
+				<prop key="mail.smtp.socketFactory.class">javax.net.ssl.SSLSocketFactory</prop>
+			</props>
+		</property>
+	</bean> -->
+	
+	<!-- <bean id="googleMail" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="smtp.gmail.com" />
+		<property name="port" value="587" />
+		<property name="username" value="q9tkd27@gmail.com" />
+		<property name="password" value="qjmf oxeu kzzm rmnm" />
+		<property name="javaMailProperties">
+			<props>
+				<prop key="mail.smtp.auth">true</prop>
+				<prop key="mail.smtp.starttls.enable">true</prop>
+ 				<prop key="mail.smtp.timeout">5000</prop>
+			</props>
+		</property>
+	</bean> -->
+
+</beans>

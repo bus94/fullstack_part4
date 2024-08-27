@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!-- dao 클래스는 단순히 자바랑 sql을 연결 메서드를 호출하는 역할만 할 뿐 Mapper 인터페이스를 이용해서 dao 클래스를 
+	줄이고 서비스에서 바로 sql Mapper .xml 파일을 호출할 수 있도록 설정 → namespace (여러 가지 Mapper가 
+	있으므로 이름도 구분해준 것!) 임시로 Mapper 이름 설정 이후 Mapper 인터페이스가 있는 풀 패키지명을 작성해야한다!! -->
+<mapper namespace="com.ss.mvc.member.mapper.MemberMapper">
+	<!-- sql문을 작성하다보면 select문 안에 중복적으로 조회하는 컬럼 sql 태그 - Mybatis xml 매퍼 파일에서 
+		자주 사용되는 태그로 sql 구문을 재사용하기 위해서 정의하는 태그 여러 sql 구문에서 공통으로 사용하는 sql 조각별로 정의하고 
+		필요할 때마다 불러와서 사용할 수 있다. sql 코드의 중복을 줄이고 유지보수성을 높일 수 있다. -->
+
+	<sql id="selectMemberSql">
+		SELECT * FROM MEMBER
+	</sql>
+
+	<resultMap type="Member" id="memberResultMap">
+		<id property="no" column="NO" />
+		<result property="id" column="ID" />
+		<result property="password" column="PASSWORD" />
+		<result property="role" column="ROLE" />
+		<result property="name" column="NAME" />
+		<result property="phone" column="PHONE" />
+		<result property="email" column="EMAIL" />
+		<result property="address" column="ADDRESS" />
+		<result property="hobby" column="HOBBY" />
+		<result property="status" column="STATUS" />
+		<result property="enrollDate" column="ENROLL_DATE" />
+		<result property="modifyDate" column="MODIFY_DATE" />
+	</resultMap>
+
+	<select id="selectMember" parameterType="String" resultMap="memberResultMap">
+		<include refid="selectMemberSql" />
+		WHERE ID = #{id} and STATUS = 'Y'
+	</select>
+
+</mapper>

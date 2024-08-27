@@ -1,0 +1,44 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script
+	src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+</head>
+<body>
+	<h1>WebSocket Test</h1>
+	<%-- <h4>${pageContext.request.servletName}</h4>
+	<h4>${pageContext.request.serverPort}</h4>
+	<h4>${pageContext.request.servletContext}</h4> --%>
+	<script>
+		// 클라이언트에서 소켓 통신의 객체를 생성
+		let socket = new WebSocket("ws://localhost:8080/socket/myHandler");
+		socket.onopen = function() {
+			console.log("Connection Opened!");
+			socket.send("hello server!");
+		};
+
+		// 서버로부터 메시지가 도착했을 때
+		socket.onmessage = function(event) {
+			console.log("응답  server: " + event.data);
+		};
+
+		// 웹 소켓 연결이 닫혔을 때 실행하는 함수
+		socket.onclose = function() {
+			console.log("Connection closed");
+		};
+
+		// 웹 소켓 연결시 에러가 발생했을 때 실행하는 함수
+		socket.onerror = function(error) {
+			console.log("Error: " + error);
+		};
+	</script>
+</body>
+</html>

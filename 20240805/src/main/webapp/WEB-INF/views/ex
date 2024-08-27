@@ -1,0 +1,856 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "FJPbWNoXZGm9rbVezKD_qJBsXSM",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DZVkFSbEi9ghcVlwkJcgWuk6MoU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_op0GRTE64s"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T09:59:38Z",
+        "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+        "title": "&quot;손바닥으로 하늘 못 가려&quot; 공수처 간 폭로경찰, &#39;용산&#39; 언급 통화내역 조사..또 터진 외압의혹-[핫이슈PLAY] MBC뉴스 2024년 8월 5일",
+        "description": "인천세관 마약 사건의 수사 외압 의혹을 제기한 백해룡 경정이 재차 경찰 윗선의 개입을 주장했습니다. 고발인 조사를 받기 위해 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_op0GRTE64s/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_op0GRTE64s/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_op0GRTE64s/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCNEWS",
+        "liveBroadcastContent": "live",
+        "publishTime": "2024-08-04T09:59:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "t-zkLEBGHpkHqwZU2WcTKsD3hsg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ova5OIKd578"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T22:31:36Z",
+        "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+        "title": "한국 양궁 금메달 전 종목 석권‥안세영, 금메달 도전 - [LIVE] MBC 뉴스투데이 2024년 8월 5일",
+        "description": "서울 강남 병원 건물서 불‥경산 섬유창고 화재 / 8월 국회 첫날 '노란봉투법' 표결‥대치 지속 / 이란 보복 초읽기‥미군 전력 급파 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ova5OIKd578/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ova5OIKd578/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ova5OIKd578/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCNEWS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-04T22:31:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OB1gPvxQAWPPlHlEYXF99fZCrVI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hqlphABprfA"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T20:48:08Z",
+        "channelId": "UChlv4GSd7OQl3js-jkLOnFA",
+        "title": "당신의 투자 고민, 시원하게 날려주는 맞춤형 투자상담 방송!_24.08.05_서재영, 노영래, 허재무, 홍선애 [아침N투자]",
+        "description": "[아침 N 투자] 투자 상담 받고, 선물 받아가세요! https://forms.gle/DPpZ2DzLiQbWd82w7 ----- 삼프로 멤버십 엿보기   ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hqlphABprfA/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hqlphABprfA/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hqlphABprfA/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "삼프로TV 3PROTV",
+        "liveBroadcastContent": "live",
+        "publishTime": "2024-08-04T20:48:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Sd17R31ArK7ANsE_hy3NaEZLbuk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mLtVtOOOVZo"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T09:38:39Z",
+        "channelId": "UCTHCOPwqNfZ0uiKOvFyhGwg",
+        "title": "[뉴스쏙] &#39;폭풍전야&#39; 이스라엘에 헤즈볼라 미사일 공습｜하마스, 하니예 암살 후 보복 다짐…살얼음판 긴장 지속｜바이든 &quot;미국 대통령 쉽게 생각 말라&quot;… 불만 표출",
+        "description": "레바논의 친이란 무장단체 헤즈볼라가 이스라엘 북부를 겨냥해 미사일 공격을 단행했습니다. 최근 암살된 하마스 최고 지도자 하니예 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mLtVtOOOVZo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mLtVtOOOVZo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mLtVtOOOVZo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "연합뉴스TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-04T09:38:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wDJ1Jgv9lgvIPj7wxSfMR_SAQXk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iGN35K4cvjY"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T21:43:58Z",
+        "channelId": "UCcQTRi69dsVYHN3exePtZ1A",
+        "title": "[🔴LIVE] 언제 어디서나! KBS 뉴스 24",
+        "description": "KBS1, KBS2TV에서 선별된 뉴스, 시사, 다큐멘터리 프로그램들을 365일 24시간 실시간으로 전해드립니다. ▣ 실시간 편성 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iGN35K4cvjY/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iGN35K4cvjY/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iGN35K4cvjY/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS News",
+        "liveBroadcastContent": "live",
+        "publishTime": "2024-08-04T21:43:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "b5mwzoDVN8jK3CivPK9DGn1nO7U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "X39i7ax_83g"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T07:35:43Z",
+        "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+        "title": "[뉴스 &#39;꾹&#39;] 첸멍 이겨도 &quot;쑨잉샤! 짜요!&quot; &quot;귀를 의심&quot; 中 왜 이러나 (2024.08.04/MBC뉴스)",
+        "description": "탁구 #중국 #결승전 c MBC & iMBC 무단 전재, 재배포 및 이용(AI학습 포함)금지.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/X39i7ax_83g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/X39i7ax_83g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/X39i7ax_83g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCNEWS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-04T07:35:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KSIo9AfA5Lzyg-rzUbcmJhCG35g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "b3MI7dFScxA"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T05:00:17Z",
+        "channelId": "UCsU-I-vHLiaMfV_ceaYz5rQ",
+        "title": "[자막뉴스] 다 멈춘 듯 &quot;재난 같은데&quot;…깜깜한 주민들 들은 말이 / JTBC News",
+        "description": "계속되는 폭염에 수온이 오르면서 곳곳에서 녹조 현상이 나타나고 있습니다. 시리즈 더 보기 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/b3MI7dFScxA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/b3MI7dFScxA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/b3MI7dFScxA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JTBC News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-04T05:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ml-kXfrYbtNKrtPGNeKwDd12aq0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nCpzBO7U3TM"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-05T00:39:28Z",
+        "channelId": "UCTHCOPwqNfZ0uiKOvFyhGwg",
+        "title": "[뉴스쏙] 서방이 지원한 F-16 전투기, 우크라 도착·임무 개시…젤렌스키 &quot;우리가 해냈다&quot;…추가 지원 요구도 / 연합뉴스TV (YonhapnewsTV)",
+        "description": "볼로디미르 젤렌스키 우크라이나 대통령이 서방이 지원한 F-16 전투기가 도착해 임무를 개시했다고 밝혔습니다. F-16 전투기는 젤 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nCpzBO7U3TM/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nCpzBO7U3TM/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nCpzBO7U3TM/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "연합뉴스TV",
+        "liveBroadcastContent": "live",
+        "publishTime": "2024-08-05T00:39:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "essrL_PPGALvAVl4om7fdrSCqj4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kTJsfwQNE38"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T06:23:32Z",
+        "channelId": "UChlgI3UHCOnwUGzWzbJ3H5w",
+        "title": "[자막뉴스] 가드레일 들이받고 튕겨 나간 트럭..이종사촌 3남매 참변 / YTN",
+        "description": "가드레일을 들이받고 반대편 차선 넘어까지 튕겨 나간 1톤 트럭. 종잇장처럼 구겨졌는데 특히 운전석 옆 조수석이 심하게 망가 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kTJsfwQNE38/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kTJsfwQNE38/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kTJsfwQNE38/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": " YTN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-04T06:23:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HC9j2yPv7qLph9ghtGVVZnwC6nE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VRhCTqMG2w8"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T10:18:06Z",
+        "channelId": "UCIIpmDPVk7nzNHEUSHmvkUg",
+        "title": "“北서 항문, 발가락 없는 아이들 태어나” | 뉴스TOP 10",
+        "description": "北서 항문, 발가락 없는 아이들 태어나” 영국 매체 '더 선', 2015년 탈북 이영란 씨 발언 소개 이 씨, 핵실험장 인근 정체불명 '유령병' ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VRhCTqMG2w8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VRhCTqMG2w8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VRhCTqMG2w8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "채널A 뉴스TOP10",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-04T10:18:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Vii2U2D7SNeuyDYCYjs5NJ4osrU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rbulOY34Rgs"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T06:21:14Z",
+        "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+        "title": "쯔양 돈 뜯다 &#39;패가망신&#39; 이제 &#39;가세연&#39;과 전면전 [뉴스.zip/MBC뉴스]",
+        "description": "00:00 '유튜버 카라큘라' 구속‥\"쯔양 공갈 방조\" (2024.08.03/12MBC뉴스) 01:55 [자막뉴스] \"내가 왜 중절 수술했는데!\"..가세연 폭로 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rbulOY34Rgs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rbulOY34Rgs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rbulOY34Rgs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCNEWS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-04T06:21:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0Z7zOIY4BYJ9Ol3vGN-1GqXlQuk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lNAmcik2PSc"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T21:35:26Z",
+        "channelId": "UCcQTRi69dsVYHN3exePtZ1A",
+        "title": "[🔴LIVE] 이란 보복 초읽기…각국, 레바논 등서 자국민 대피령/2024년 8월 5일(월)/KBS",
+        "description": "이스라엘을 겨냥한 이란의 보복 공격이 임박한 것으로 관측되면서 중동 지역 긴장이 고조되고 있습니다. 우리 외교부를 비롯해 미국과 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lNAmcik2PSc/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lNAmcik2PSc/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lNAmcik2PSc/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS News",
+        "liveBroadcastContent": "live",
+        "publishTime": "2024-08-04T21:35:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AUlqNUu234Ru_Ow6Ltef5Hly-6k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "550XcSMOAfg"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T08:31:22Z",
+        "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+        "title": "[오늘의 파리] &quot;텐텐텐텐텐텐텐텐텐&quot; &quot;우와! 정말~사람인가요?&quot; (2024.08.04/MBC뉴스)",
+        "description": "파리올림픽 #양궁 #김우진 ㅤ c MBC & iMBC 무단 전재, 재배포 및 이용(AI학습 포함)금지.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/550XcSMOAfg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/550XcSMOAfg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/550XcSMOAfg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCNEWS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-04T08:31:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ak1uv5DYso3kFWPkmQ8qc7F1BVM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "z65gUGO9aKE"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T10:23:02Z",
+        "channelId": "UCIIpmDPVk7nzNHEUSHmvkUg",
+        "title": "혜민스님 “분별심 버려라”에 누리꾼 반응 싸늘 | 뉴스TOP 10",
+        "description": "혜민스님 “분별심 버려라”에 누리꾼 반응 싸늘 혜민스님 '풀소유' 논란 이후 3년 만에 방송 복귀 혜민스님 \"불행을 느끼는 원인은 우리의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/z65gUGO9aKE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/z65gUGO9aKE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/z65gUGO9aKE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "채널A 뉴스TOP10",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-04T10:23:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UMSFF5tMTknA4puo46tDWKveXEI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cuUNUKfGrgc"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T02:00:27Z",
+        "channelId": "UCsU-I-vHLiaMfV_ceaYz5rQ",
+        "title": "&quot;제가 누구죠?&quot; 물었더니 &#39;소름&#39;…순간 기지 발휘한 의사 #뉴스다  /JTBC News",
+        "description": "0:00 [단독] \"내 이름으로 낳아서 넘겨줘\"…'그림자 아기' 노리는 아동매매 조직 (7.30 뉴스룸) 3:21 [단독] \"애교 많고 똘똘해요\"…",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cuUNUKfGrgc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cuUNUKfGrgc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cuUNUKfGrgc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JTBC News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-04T02:00:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "h45G2qsFEFLaYPBY7f-jn-UI8rg",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw"
+      },
+      "snippet": {
+        "publishedAt": "2006-11-05T21:58:51Z",
+        "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+        "title": "MBCNEWS",
+        "description": "MBC 뉴스 공식 유튜브 채널입니다. 시청자 여러분의 의견과 제보를 항상 기다립니다. 세상과 소통하는 시간, MBC 뉴스와 함께 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AIdro_k63f49sv4QTvI0tZZMCUW5jHrpALVurb9S7xgzjFMIfzQ=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AIdro_k63f49sv4QTvI0tZZMCUW5jHrpALVurb9S7xgzjFMIfzQ=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AIdro_k63f49sv4QTvI0tZZMCUW5jHrpALVurb9S7xgzjFMIfzQ=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "MBCNEWS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2006-11-05T21:58:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "s_sJu-Vosay6IsZWIJIMd8Uu5i0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iOEEVM0B1aw"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T21:10:01Z",
+        "channelId": "UChlgI3UHCOnwUGzWzbJ3H5w",
+        "title": "김우진 3관왕…양궁 사상 첫 5종목 석권 [뉴스START] 다시보기 2024년 08월 05일  / YTN",
+        "description": "방송된 기사 내용은 YTN 홈페이지와 모바일 앱에서 확인하실 수 있습니다. ▷ YTN 뉴스보기 https://www.ytn.co.kr/ ▷ YTN APP 다운 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iOEEVM0B1aw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iOEEVM0B1aw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iOEEVM0B1aw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": " YTN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-04T21:10:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pBYSZ5px4FZmO7Hyda-Li1Z9XDU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yoYFMZkF-W8"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T02:44:39Z",
+        "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+        "title": "[뉴스 &#39;꾹&#39;] 한국 선수 부상에도 &quot;우~&quot; 어이없는 프랑스 관중들 (2024.08.04/MBC뉴스)",
+        "description": "파리올림픽 #프랑스 #매너 c MBC & iMBC 무단 전재, 재배포 및 이용(AI학습 포함)금지.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yoYFMZkF-W8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yoYFMZkF-W8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yoYFMZkF-W8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCNEWS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-04T02:44:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "b6hHAPy5TjuoNZs6e4ATu9f2TGI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XXUlPCFa4qI"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T21:31:21Z",
+        "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+        "title": "해리스-트럼프 지지율 &#39;팽팽&#39;‥7개 경합주 &#39;동률&#39; (2024.08.05/뉴스투데이/MBC)",
+        "description": "미국 대선 선거전에서 해리스와 트럼프의 지지율이 경합주를 포함해 여전히 팽팽하다는 여론조사가 또 발표됐습니다. 양측 모두 결집 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XXUlPCFa4qI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XXUlPCFa4qI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XXUlPCFa4qI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCNEWS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-04T21:31:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5j93J9kk06WLV3YkfKcCgTb_DJs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "u4l95d5Guz4"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T07:55:52Z",
+        "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+        "title": "[오늘 이 뉴스] 청소하던 환경미화원 살해 피의자 &quot;반성은 하냐&quot; 묻자.. (2024.08.04/MBC뉴스)",
+        "description": "환경미화원 #참변 #구속영장심사 ㅤ c MBC & iMBC 무단 전재, 재배포 및 이용(AI학습 포함)금지.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/u4l95d5Guz4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/u4l95d5Guz4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/u4l95d5Guz4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCNEWS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-04T07:55:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GRVbmCS2XRUA6p-s9u--BThjDvI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QhDxEIeL9_c"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T09:55:52Z",
+        "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+        "title": "검찰, 야권·언론 무더기 통신 조회‥&quot;전방위적 사찰&quot; (2024.08.04/뉴스데스크/MBC)",
+        "description": "검찰이 올해 초 더불어민주당 이재명 전 대표 등 야당 의원들과 언론인을 상대로 광범위하게 통신 조회를 한 사실이 드러났습니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QhDxEIeL9_c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QhDxEIeL9_c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QhDxEIeL9_c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCNEWS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-04T09:55:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dgpFUY0FSowE_Lzyush-29qaiLs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "taZHfCJJbE0"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-03T08:48:15Z",
+        "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+        "title": "&quot;고속도로 운전 정말 편하네&quot;..&#39;반자율&#39; 과신했다 &#39;날벼락&#39; [뉴스.zip/MBC뉴스]",
+        "description": "00:00 '크루즈' 기능만 믿다간 큰일납니다 (2024.07.29/뉴스데스크/원주MBC) 02:00 [와글와글 플러스] 크루즈 기능 믿었다가 '쾅'‥ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/taZHfCJJbE0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/taZHfCJJbE0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/taZHfCJJbE0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCNEWS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-03T08:48:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "u-VQoziCRQ1-9CUeijuVQLRxH_g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CHS9OMbUE70"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-05T01:05:30Z",
+        "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+        "title": "이란 보복 &#39;초읽기&#39; #Shorts (MBC뉴스)",
+        "description": "ㅤ c MBC & iMBC 무단 전재, 재배포 및 이용(AI학습 포함)금지.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CHS9OMbUE70/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CHS9OMbUE70/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CHS9OMbUE70/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCNEWS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-05T01:05:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "O0R9rYwumcTu-xWzqK_pVEs5GeM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JBTCWx5cQFk"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-04T01:53:16Z",
+        "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+        "title": "&quot;이재명 왜 등장?&quot; 판사도 의문   기자는 &quot;걸레같다&quot; 폭발  [뉴스.zip/MBC뉴스]",
+        "description": "00:00 [오늘 이 뉴스] \"걸레같은 공소장\" 기자 격분..판사조차 \"몇군데 다시 써라\" (2024.08.01./MBC뉴스) 02:45 '윤 대통령 명예훼손' ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JBTCWx5cQFk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JBTCWx5cQFk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JBTCWx5cQFk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCNEWS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-04T01:53:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kTfEE2XMDPaqdx_Lh_ggJQnN3gg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ERc8YzW9Ggs"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-05T00:28:24Z",
+        "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+        "title": "안세영 &#39;결승전&#39; #Shorts (MBC뉴스)",
+        "description": "ㅤ c MBC & iMBC 무단 전재, 재배포 및 이용(AI학습 포함)금지.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ERc8YzW9Ggs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ERc8YzW9Ggs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ERc8YzW9Ggs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCNEWS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-05T00:28:24Z"
+      }
+    }
+  ]
+}

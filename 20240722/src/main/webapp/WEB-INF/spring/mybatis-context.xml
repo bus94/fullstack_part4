@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<!-- 1. DB 연결 정보 설정 destroy-method: 빈이 소멸될 때 호출되는 메서드 이름 (DB연결 했으면 닫기 위해서 
+		사용) - bean이 DB 조회한 후 연결되었다면 자동으로 닫게 되는 것 커넥션 풀링(Connection Pooling) ex) 카페 
+		진동벨: DB에 대한 여러 연결을 미리 연결 해두고 애플리케이션이 필요할 때마다 미리 연결한 정보를 재사용할 수 있도록 설정 -->
+	<bean id="dataSource"
+		class="org.apache.commons.dbcp2.BasicDataSource"
+		p:driverClassName="${db.driver}" p:url="${db.url}"
+		p:username="${db.username}" p:password="${db.password}"
+		destroy-method="close" />
+
+	<!-- 2. mybatis 설정 xml 파일을 로드 할 경우 p:configLocation="classpath:mybatis-context.xml" 
+		p:typeAliasesPackage : Mybatis 설정 파일에서 자주 사용되는 속성 중에 하나다. 특정 패키지에 있는 클래스들을 
+		짧은 별칭(별명)으로 사용할 수 있게 한다. -->
+	<bean id="mybatisConfig"
+		class="org.apache.ibatis.session.Configuration" />
+	<bean id="sqlSessionFactory"
+		class="org.mybatis.spring.SqlSessionFactoryBean"
+		p:configuration-ref="mybatisConfig"
+		p:mapperLocations="classpath:mappers/**/*.xml"
+		p:dataSource-ref="dataSource" p:typeAliasesPackage="**.dto" />
+
+	<!-- 3. 실제 마이바티스에서 사용한 Session 정의 -->
+	<bean id="sqlSession"
+		class="org.mybatis.spring.SqlSessionTemplate"
+		c:sqlSessionFactory-ref="sqlSessionFactory" />
+
+	<!-- DAO를 인터페이스로 변경해서 Mapper를 사용하려면 Mapper Scanning Mybatis 매퍼 인터페이스를 스캔하여 
+		자동으로 bean 객체를 생성할 수 있도록 설정하는 클래스 MapperScannerConfigurer : 클래스가 지정된 패키지에서 
+		매퍼 인터페이스를 찾아서 자동으로 Spring 빈으로 등록한다. -->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer" p:basePackage="**.mapper" />
+</beans>

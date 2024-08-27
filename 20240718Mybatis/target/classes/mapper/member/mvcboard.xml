@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<!-- 실질적인 sql이 들어가는 Mapper -->
+<mapper namespace="com.ss.mybatis.board.dao.MyBatisDAO">
+	<insert id="insert" parameterType="dto">
+		insert into mvcboard (idx, name, subject, content, gup, lev, seq)
+		values (mvcboard_idx_seq.nextval, #{name}, #{subject}, #{content}, 0, 0, 0)
+	</insert>
+</mapper>

@@ -1,0 +1,17 @@
+package com.ss.rest.controller;
+
+import java.util.List;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RequestMapping("/cat")
+@org.springframework.web.bind.annotation.RestController
+public class CatRestController {
+	
+	@GetMapping("/show")
+	public ResponseEntity<List<Object>> show() {
+		return null;
+	}
+}

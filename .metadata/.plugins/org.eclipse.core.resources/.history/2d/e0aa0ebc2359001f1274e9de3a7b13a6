@@ -1,0 +1,10 @@
+package com.ss.rest.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class ImportController {
+	
+	// 가맹점 식별 코드
+	private String code = "imp30405484";
+}

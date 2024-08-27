@@ -1,0 +1,5 @@
+package com.ss.rest.mapper;
+
+public interface CatMapper {
+	
+}

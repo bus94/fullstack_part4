@@ -1,0 +1,52 @@
+package com.ss.socket;
+
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
+
+import org.springframework.web.socket.CloseStatus;
+import org.springframework.web.socket.TextMessage;
+import org.springframework.web.socket.WebSocketSession;
+import org.springframework.web.socket.handler.TextWebSocketHandler;
+
+// TextWebSocketHandler
+// 스프링에서 제공하는 기본적인 웹 소켓 핸들러
+// 텍스트 메세지를 처리하는 메서드로 연결을 해서 메세지 송수신을 처리하는 것
+public class MyWebSocketHandler extends TextWebSocketHandler {
+
+	// 여러 명이 들어왔을 때 처리할 수 있는 변수
+	// Set 컬렉션 프레임워크
+	// - 순서는 없다(인덱스)
+	// - 중복적인 데이터를 저장할 수 없다
+	private static Set<WebSocketSession> sessions = Collections.synchronizedSet(new HashSet<WebSocketSession>());
+	// 여러 스레드에서 안전하게 set을 사용할 수 있도록 설정. 한꺼번에 여러 개의 스레드가 생성되고 글을 쓰다보면 충돌이 발생할 수 있다.
+	// Collections.synchronizedMap()은 여러 개의 채팅방을 관리
+
+	// 웹 소켓 세션이 연결 되었을 때 위에 set 인터페이스에 연결된 세션을 저장
+	@Override
+	public void afterConnectionEstablished(WebSocketSession session) throws Exception {
+		sessions.add(session);
+		System.out.println("새로 연결된 사용자:" + session.getId());
+	}
+	
+	// 채팅방을 나가는 순간 연결되었던 세션을 삭제하기
+	@Override
+	public void afterConnectionClosed(WebSocketSession session, CloseStatus status) throws Exception {
+		sessions.remove(session);
+		System.out.println("사용자 연결 종료! " + session.getId() + "님이 사용을 종료하였습니다.");
+	}
+
+	// 메세지가 수신 및 송신 되었을 때 처리하는 메서드
+	@Override
+	protected void handleTextMessage(WebSocketSession session, TextMessage message) throws Exception {
+		String payload = message.getPayload();
+		System.out.println("메시지: " + payload);
+		// TextMessage 스프링에서 제공하는 클래스
+		// 텍스트 기반의 웹 소켓 메세지를 말한다.
+		TextMessage msg = new TextMessage("Hello, " + payload + "!");
+
+		// 클라이언트에게 정상적으로 연결되었다는 뜻으로 답장을 보낸다. 현재 연결된 정보는 session
+		session.sendMessage(msg); // 응답
+
+	}
+}

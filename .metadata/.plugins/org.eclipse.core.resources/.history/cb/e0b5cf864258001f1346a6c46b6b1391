@@ -1,0 +1,5 @@
+package com.ss.socket;
+
+public class MyWebSocketHandler {
+	
+}
